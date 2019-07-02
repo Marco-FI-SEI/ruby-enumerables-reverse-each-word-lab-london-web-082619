@@ -6,3 +6,7 @@ def reverse_each_word(sentence)
   end
   reversed_words
 end
+
+def reverse_each_word(senence)
+  words= sentence.split
+  words.collect
