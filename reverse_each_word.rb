@@ -1,4 +1,4 @@
-def reverse_each_word(sentence)
+def reverse_each_word(sentence1)
   words= sentence.split
   reversed_words = []
   words.each do |word|
@@ -7,7 +7,7 @@ def reverse_each_word(sentence)
   reversed_words
 end
 
-def reverse_each_word(senence)
+def reverse_each_word(senence2)
   words= sentence.split
   reversed_words = words.collect { |word| word.reverse }
   reversed_words
